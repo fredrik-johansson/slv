@@ -23,6 +23,8 @@
 
 ******************************************************************************/
 
+#include "fmpz_poly_solve.h"
+
 /* Returns the sign of F(1/2) */
 int fmpz_poly_sgn_eval_at_half (fmpz_poly_t P)
 {
